@@ -15,6 +15,9 @@
         "php": ">=5.4",
         "sami/sami": ">=3.0.6"
     },
+    "suggest": {
+        "geshi/geshi": "^1.0 for rendering with GeSHi"
+    },
     "autoload": {
         "psr-4": { "DennisVerspuij\\SamiLocalSource\\": "" }
     }
