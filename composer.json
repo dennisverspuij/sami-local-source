@@ -1,0 +1,21 @@
+{
+    "name": "dennisverspuij/sami-local-source",
+    "type": "library",
+    "description": "Sami RemoteRepository implementations for including source code along documentation",
+    "keywords": ["phpdoc"],
+    "homepage": "https://github.com/dennisverspuij/sami-local-source",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Verspuij",
+            "homepage": "https://github.com/dennisverspuij"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "sami/sami": ">=3.0.6"
+    },
+    "autoload": {
+        "psr-4": { "DennisVerspuij\\SamiLocalSource\\": "" }
+    }
+}
