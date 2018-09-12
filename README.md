@@ -43,6 +43,8 @@ Install using [`composer`](https://getcomposer.org/download/):
 ```bash
 cd /some/path/sami
 composer install
+# You can now invoke sami as follows:
+php /some/path/sami/vendor/bin/sami.php ...
 ```
 
 
