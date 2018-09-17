@@ -73,7 +73,6 @@ abstract class Base extends \Sami\RemoteRepository\AbstractRemoteRepository
    */
   protected function initialize($buildRoot)
   {
-    file_put_contents($buildRoot . \DIRECTORY_SEPARATOR . 'bla.css', 'html,body { background-color: yellow; }');
   } 
 
   /**
